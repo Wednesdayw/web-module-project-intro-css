@@ -51,18 +51,11 @@ table {
     padding:0;
     margin:0;
     max-width:100%;
-    /* font-family: 'Roboto Mono'; */
+    font-family: 'Roboto Mono';
     font-size: 12px;
 }
 
-*{
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
-    max-width:100%;
-    font-family: 'Roboto Mono';
-    font-size: 12px;
-  }
+
   
   html{
     font-size:62.5%;
@@ -188,7 +181,9 @@ table {
       width:12%;
       margin: 0 44% 0;
   }
-  
+  .bold-fire {
+    font-weight: bold;
+  }
   #fire-text{
       margin: 2% 40% 5%;
       text-align:center;} 
@@ -199,7 +194,9 @@ table {
   .fire #fire-icon #fire-text {
       display:inline-block;
   }
-  
+  .bold-entrance{
+      font-weight: bold;
+  }
   #camper-icon{
       width:8%;
       margin: 0 46% 0;
@@ -270,3 +267,4 @@ table {
       text-decoration:none;
       font-size: 12px;
   }
+ 

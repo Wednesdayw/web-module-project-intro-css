@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    font-family: 'Roboto Mono';
+    font-size: 12px;
+}
+
+
+  
+  html{
+    font-size:62.5%;
+  }
+  
+  .nav{
+      width:0 25% 0;
+      align-content:center;
+    }
+  
+  .button-1{
+      display:inline-block;
+      width:8%;
+      text-align:center;
+      background-color:#FF764E;
+      color:white;
+      padding:.5% 0;
+      margin:3% 14%;
+      border-radius:10px;
+      text-decoration:none;
+      font-size: 12px;
+  }
+  
+  .button-1:hover{
+      color:#FF764E;
+      border-color:#FF764E;
+      background-color: white;
+  }
+  
+  .button-2{
+      display:inline-block;
+      width:10%;
+      text-align:center;
+      background-color:#5ED3EB;
+      color:white;
+      padding:10px;
+      margin:3% 7%;
+      border-radius:10px;
+      text-decoration:none;
+      font-size: 12px;
+  }
+  
+  .button-2:hover{
+      color:#5ED3EB;
+      border-color:#5ED3EB;
+      background-color: white;
+  }
+  
+    .button-3{
+      display:inline-block;
+      width:8%;
+      text-align:center;
+      background-color:#FFCD69;
+      color:white;
+      padding:.5% 0;
+      margin:3% 14%;
+      border-radius:10px;
+      text-decoration:none;
+      font-size: 12px;
+  }
+  
+  .button-3:hover{
+      color:#FF764E;
+      border-color:#FF764E;
+      background-color: white;
+  }
+  
+  .main-image{
+      display:inline-block;
+      width:20%;
+      border-radius: 50%;
+  }
+  
+  .main-image img{
+      border-radius: 50%;
+      margin-left: 100px;
+  }
+  
+  .hero-text{
+      display:inline-block;
+      width:60%;
+      margin-left:15%;
+  }
+  
+  .hero-text .main-image h1 .paragraph #first-line #second-line{
+      margin-bottom: 50px;
+  }
+  
+  h1{
+      font-size:52px;
+      font-family: 'Chelsea Market';
+      padding-top: -50px;
+  }
+  
+  .paragraph{
+      color:white;
+      background-color:#DDB9A3;
+      margin: 30px 50px;
+      padding: 2%;
+  }
+  
+  #first-line{
+      margin:30px 0 ;
+  }
+  
+  #second-line{
+      margin:30px 0;
+      margin-bottom:30px;
+  }
+  
+  .fire {
+      text-align:center;
+      text-align:justify;
+      display:inline-block;
+  }
+  
+  #fire-icon{
+      width:8%;
+      margin: 0 46% 0;
+  } 
+  
+  #fire-icon:hover{
+      width:12%;
+      margin: 0 44% 0;
+  }
+  .bold-fire {
+    font-weight: bold;
+  }
+  #fire-text{
+      margin: 2% 40% 5%;
+      text-align:center;} 
+  
+  #fire-text:hover{
+          color:#FF764E} 
+  
+  .fire #fire-icon #fire-text {
+      display:inline-block;
+  }
+  .bold-entrance{
+      font-weight: bold;
+  }
+  #camper-icon{
+      width:8%;
+      margin: 0 46% 0;
+  }
+  
+  #camper-icon:hover{
+      width:12%;
+      margin: 0 44% 0;
+  }
+  
+  #camper-text{
+      margin: 2% 40% 5%;
+      text-align:center;} 
+  
+  #camper-text:hover{
+          color:#5ED3EB} 
+  
+  #footer-image{
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-position:center;
+      background-attachment:fixed;
+      width: 100%;
+      height:30vh;
+  }
+  
+  .bottom-nav{
+      width:0 25% 0;
+      align-content:center;
+      background-color:#F9E7DC;
+    }
+  
+  .button-1{
+      display:inline-block;
+      width:8%;
+      text-align:center;
+      background-color:#FF764E;
+      color:white;
+      padding:.5% 0;
+      margin:3% 14%;
+      border-radius:10px;
+      text-decoration:none;
+      font-size: 12px;
+  }
+  
+  .button-2{
+      display:inline-block;
+      width:10%;
+      text-align:center;
+      background-color:#5ED3EB;
+      color:white;
+      padding:.5% 0;
+      margin:3% 7%;
+      border-radius:10px;
+      text-decoration:none;
+      font-size: 12px;
+  }
+  
+    .button-3{
+      display:inline-block;
+      width:8%;
+      text-align:center;
+      background-color:#FFCD69;
+      color:white;
+      padding:.5% 0;
+      margin:3% 14%;
+      border-radius:10px;
+      text-decoration:none;
+      font-size: 12px;
+  }
+ 
